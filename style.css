@@ -25,6 +25,7 @@ div.container {
   background-color: white;
   color: black;
   cursor: pointer;
+  border: none;
 }
 h1 {
   text-align: center;
@@ -38,6 +39,7 @@ div.wrapper {
 .check {
   width: max-content;
 }
+
 .number {
   background: #eee;
   color: #333;
