@@ -1,0 +1,82 @@
+body {
+  font-family: "Press Start 2P", system-ui;
+  background-color: black;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", system-ui;
+}
+div.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  padding: 20px 50px;
+}
+.top-interface {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  padding: 15px 30px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  border-bottom: 4px solid white;
+  padding-bottom: 150px;
+}
+div.wrapper {
+  position: relative;
+}
+.check {
+  width: max-content;
+}
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 56%);
+}
+
+div.flex {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  justify-content: center;
+  gap: 200px;
+}
+div.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+input[type="number"] {
+  border: 4px solid #eee;
+  height: 100px;
+  text-align: center;
+  color: white;
+  background: black;
+  font-size: 32px;
+  width: 220px;
+}
+div.right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 30px;
+}
